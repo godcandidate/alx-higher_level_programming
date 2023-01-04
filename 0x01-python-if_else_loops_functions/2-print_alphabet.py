@@ -1,6 +1,4 @@
 #!/usr/bin/python3
 
-alphabets = "abcdefghijklmnopqrstuvwxyz"
-
-for letter in alphabets:
-	print(letter, end="")
+for i in range(97, 123):
+    print("%c" % i, end="")
