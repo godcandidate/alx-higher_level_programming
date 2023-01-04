@@ -5,10 +5,10 @@ def fizzbuzz():
         if num == 100:
             print("Buzz")
         elif num % 3 == 0 and num % 5 == 0:
-            print("FizzBuzz ")
+            print("FizzBuzz", end=" ")
         elif num % 5 == 0:
-            print("Buzz ")
+            print("Buzz", end=" ")
         elif num % 3 == 0:
-            print("Fizz ")
+            print("Fizz", end=" ")
         else:
-            print(f"{num} ")
+            print(f"{num}", end=" ")
