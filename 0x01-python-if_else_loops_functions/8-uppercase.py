@@ -1,7 +1,9 @@
 #!/usr/bin/python3
-
 def uppercase(str):
-    if ord(str) >= 65 and ord(str) <= 90:
-        return True
-    else:
-        return False
+    for i in range(len(str)):
+        if ord(str[i]) >= 97 and ord(str[i]) <= 122:
+            diff = 32
+        else:
+            diff = 0
+        print("{:c}".format(ord(str[i]) - diff), end='')
+    print()
