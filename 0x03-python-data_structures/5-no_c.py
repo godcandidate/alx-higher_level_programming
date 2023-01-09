@@ -2,13 +2,13 @@
 def no_c(my_string):
     length = len(my_string)
 
-    k = 0
+    j = 0
 
     new_string = my_string[:]
 
-    for i in range(length):
+    for j in range(length):
         if (my_string[i] == 'c' or my_string[i] == 'C'):
-            new_string = new_string[:(i - k)] + my_string[(k + 1):]
-            k += 1
+            new_string = new_string[:(i - j)] + my_string[(j + 1):]
+            j += 1
 
     return (new_string)
