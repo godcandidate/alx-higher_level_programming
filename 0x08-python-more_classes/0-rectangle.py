@@ -1,8 +1,12 @@
 #!/usr/bin/python3
-"""Defines a rectangle """
+#!/usr/bin/python3
+# 0-rectangle.py
+# Obeng Edward
+"""Defines a Rectangle class."""
 
 
 class Rectangle:
-    """Does nothing"""
-    pass
+    """Represent a rectangle."""
+    pass"""Defines a rectangle """
+
 
