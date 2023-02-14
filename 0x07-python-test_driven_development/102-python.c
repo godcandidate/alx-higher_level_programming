@@ -1,6 +1,6 @@
 /*
  * File: 102-python.c
- * Auth: Naheemah Bello
+ * Auth: Obeng Dankwah Edward
  */
 
 #include "Python.h"

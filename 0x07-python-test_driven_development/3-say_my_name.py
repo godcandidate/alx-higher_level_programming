@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # 3-say_my_name.py
-# Naheemah Bello
+# Edward Obeng Dankwah
 """Defines a name-printing function."""
 
 

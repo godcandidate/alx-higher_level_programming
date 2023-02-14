@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # 5-text_indentation.py
-# Naheemah Bello
+# Obeng Dankwah Edward
 """Defines a text-indentation function."""
 
 

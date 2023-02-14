@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # 4-print_square.py
-# Naheemah Bello
+# Obeng Dankwah Edward
 """Defines a square-printing function."""
 
 
