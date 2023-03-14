@@ -1,0 +1,2 @@
+-- Create database if not exists in my server
+CREATE DATABASE IF NOT EXISTS hbtn_0c_0;
