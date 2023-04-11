@@ -1,6 +1,4 @@
 #!/usr/bin/node
-
-//a script that prints a square
 const size = Math.floor(Number(process.argv[2]));
 if (isNaN(size)) {
   console.log('Missing size');
