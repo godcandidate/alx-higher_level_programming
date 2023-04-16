@@ -19,12 +19,12 @@ if __name__ == "__main__":
     db_uri = 'mysql+mysqldb://{}:{}@localhost:3306/{}'.format(
         argv[1], argv[2], argv[3])
     engine = create_engine(db_uri)
-    Sessions = sessionmaker(bind=engine)
+    Session = sessionmaker(bind=engine)
 
-    sessions = Sessions()
-    instances = sessions.query(State).order_by(State.id).first()
+    session = Session()
+    instance = session.query(State).order_by(State.id).first()
 
-    if instances is None:
+    if instance is None:
         print('Nothing')
     else:
-        print('{0}: {1}'.format(instances.id, instances.name))
+        print('{0}: {1}'.format(instance.id, instance.name))
