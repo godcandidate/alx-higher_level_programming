@@ -1,5 +1,6 @@
--- updates the score in second_table
--- from hbtn_0c_0
--- where name is Bob and new score is 10
-UPDATE second_table SET score = 10 WHERE name = "Bob";
+-- updates teh score of Bob to 10 int the 
+-- second table
+-- using only the name field
+UPDATE second_table SET score = 10 WHERE name = 'Bob';
+Give feedback
 

@@ -1,8 +1,7 @@
 #!/usr/bin/python3
-for letter in reversed(range(97, 123)):
-    diff = 0
-
-    if letter % 2 != 0:
-        diff = 32
-
-    print("{:c}".format(letter - diff), end='')
+for i in range(122, 96, -1):
+    if i % 2:
+        i -= 32
+    print("{}".format(chr(i)), end="")
+    if i % 2:
+        i += 32

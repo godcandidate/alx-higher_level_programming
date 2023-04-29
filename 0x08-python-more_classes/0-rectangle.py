@@ -1,10 +1,7 @@
 #!/usr/bin/python3
-# 0-rectangle.py
-# Obeng Edward
-"""Defines a Rectangle class."""
+"""A class that defines a rectangle"""
 
 
 class Rectangle:
-    """Represent a rectangle."""
+    """An empty class that represents a rectangle"""
     pass
-    """Defines a rectangle """
