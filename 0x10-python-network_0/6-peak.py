@@ -2,6 +2,7 @@
 """ Finds a peak in a list of unsorted integers
 """
 
+
 def find_peak(int_list):
     """
     Args:
@@ -27,4 +28,3 @@ def find_peak(int_list):
             mid = mid - mid_idx // 2
         else:
             return int_list[mid]
-
