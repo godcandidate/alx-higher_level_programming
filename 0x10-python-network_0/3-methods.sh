@@ -1,3 +1,3 @@
 #!/bin/bash
-# displays all HTTP methods the server will accept
-curl -sI "$1" | awk '/Allow/ {print $2, $3, $4}'
+# displays all HTTP methods
+curl -sI "$1" | grep "Allow" | cut -d " " -f 2-
