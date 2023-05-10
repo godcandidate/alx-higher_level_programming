@@ -7,7 +7,7 @@ import urllib.request
 
 if __name__ == "__main__":
     url = sys.argv[1]
-    dict_ = {'email' : sys.argv[2],}
+    dict_ = {'email': sys.argv[2]}
 
     data = urllib.parse.urlencode(dict_)
     data = data.encode('ascii')
@@ -15,4 +15,3 @@ if __name__ == "__main__":
     with urllib.request.urlopen(requests) as response:
         html = response.read()
         print(html.decode("utf-8"))
-
