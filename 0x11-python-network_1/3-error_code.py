@@ -6,9 +6,10 @@ import sys
 
 
 if __name__ == "__main__":
-    requests = urllib.request.Request(sys.argv[1])
-
-    try: 
-        urllib.request.urlopen(req)
-    except urllib.error.URLError as e:
-    print(e.reason)
+    link = sys.argv[1]
+    try:
+        with urllib.request.urlopen(link) as response:
+            content = response.read()
+            print(content.decode("utf-8"))
+    except urllib.error.HTTPError as e:
+        print(f"Error code: {e.code}")
