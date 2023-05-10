@@ -18,7 +18,7 @@ if __name__ == "__main__":
         if json_ == {}:
             print("No result")
         else:
-            print(f"[{json_.get('id')} {json_.get('name')}")
+            print(f"[{json_.get('id')}] {json_.get('name')}")
 
     except ValueError:
         print("Not a valid JSON")
