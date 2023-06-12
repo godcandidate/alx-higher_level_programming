@@ -1,4 +1,4 @@
--- displays the average temp of 3 cities
+-- this script displays the average temp of 3 cities
 -- during July and August
 -- ordered by temperature desc
 
