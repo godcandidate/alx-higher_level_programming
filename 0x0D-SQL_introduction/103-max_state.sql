@@ -1,4 +1,4 @@
--- display max tempretature of each state
+-- displays maximum tempretature of each state
 -- order by statename
 
 SELECT state, MAX(value) AS max_temp
