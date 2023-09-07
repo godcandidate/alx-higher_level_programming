@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 def fizzbuzz():
     for i in range(1, 101):
         if not(i % 5) and not(i % 3):
