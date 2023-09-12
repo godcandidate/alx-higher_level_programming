@@ -21,6 +21,8 @@ A python learning objectives:
 - All your files was compiled using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
 - All files use the Betty style. It was checked using betty-style.pl and betty-doc.pl
 
+#### Python functions
+
 `0-print_list_integer.py`
 
 - prints all integers of a list
@@ -33,21 +35,9 @@ A python learning objectives:
 
 - finds all multiples of 2 in a list
 
-`100-print_python_list_info.c`
-
-- prints some basic info about Python lists
-
 `11-delete_at.py`
 
 - deletes the item at a specific position in a list
-
-`12-switch.py`
-
-- a program to  switch value of a and b
-
-`13-is_palindrome.c`
-
-- checks if a singly linked list is a palindrome
 
 `2-replace_in_list.py`
 
@@ -81,10 +71,21 @@ A python learning objectives:
 
 - finds the biggest integer of a list.
 
-`README.md`
+#### Python program
 
-- readme
+`12-switch.py`
 
+- a program to  switch value of a and b
+
+#### C files
+
+`13-is_palindrome.c`
+
+- checks if a singly linked list is a palindrome
+
+`100-print_python_list_info.c`
+
+- prints some basic info about Python lists
 `lists.h`
 
 - contains c headers
