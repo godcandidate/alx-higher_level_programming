@@ -21,7 +21,7 @@ A python learning objectives:
 - All your files was compiled using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
 - All files use the Betty style. It was checked using betty-style.pl and betty-doc.pl
 
-#### Python functions
+## Python functions
 
 `0-print_list_integer.py`
 
@@ -71,13 +71,13 @@ A python learning objectives:
 
 - finds the biggest integer of a list.
 
-#### Python program
+## Python program
 
 `12-switch.py`
 
 - a program to  switch value of a and b
 
-#### C files
+## C files
 
 `13-is_palindrome.c`
 
